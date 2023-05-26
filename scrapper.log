@@ -5450,3 +5450,143 @@ INFO:root:log my final result [{'Product': 'iphone12pro', 'Name': 'Vinit Kar', '
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 19:09:37] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 19:09:37] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 19:09:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:32:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:32:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:32:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:32:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:log my final result []
+INFO:root:documents must be a non-empty list
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:33:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:39:11] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:39:21] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:39:29] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:40:35] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 00:42:32] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:11:55] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:12:04] "[33mPOST /review HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-716-315
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\new_pw_eng_scrap\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'tv', 'Name': 'santosh tatipudi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Excellent Tv value of money'}, {'Product': 'tv', 'Name': 'Mithun  Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Budget tv super service'}, {'Product': 'tv', 'Name': 'Navin Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "It's very good product thanks to flipkart"}, {'Product': 'tv', 'Name': 'Senthilkumar  Balakrishnan ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Good very nice in candy'}, {'Product': 'tv', 'Name': 'Amar Das', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Good Product'}, {'Product': 'tv', 'Name': 'Amar Das', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good Product'}]
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:27:16] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:name
+INFO:root:rating
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'tv', 'Name': 'santosh tatipudi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Excellent Tv value of money'}, {'Product': 'tv', 'Name': 'Mithun  Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Budget tv super service'}, {'Product': 'tv', 'Name': 'Navin Kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': "It's very good product thanks to flipkart"}, {'Product': 'tv', 'Name': 'Senthilkumar  Balakrishnan ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Good very nice in candy'}, {'Product': 'tv', 'Name': 'Amar Das', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Good Product'}, {'Product': 'tv', 'Name': 'Amar Das', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good Product'}]
+INFO:root:log my final result [{'Product': 'tv', 'Name': 'Sivanandhan Karthikeyan', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': "Bought it after my friend suggested it. It's really a good one. UHD at this price and it's a 2022 version. it connects like a charm.Switching between cable connection and net is very easy. It has eARC hdmi version 2.  Coming to TV inam really impressed by the performance. Dolby sound i heard in Disney hotstar (Movie Vikram) it was really super experience."}, {'Product': 'tv', 'Name': 'Ganesh Mohan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'After 10 Days of review. Sounds are pretty good and Clean. Dont expect bass not only motorola but in any brands of television. It will be awesome when you have decent soundbar with woofer. I am using Blaupunkt. Picture quality is more perfect than thomson, TCL, VU while comparing at this price range. I happy with the product. 4K contents are buttery smooth. I didnt find any color or light bleeds at the corners of the screen. With the few color adjustments you will feel good quality. My Rati...'}, {'Product': 'tv', 'Name': 'Reggie Gomez', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': "It's a good product at this price. I got it for 13999 and bought it a month ago right after it was launched. Picture quality is great. Vivid colours with a variety of settings to match your colour preferences. Sound quality is good not great.. it's loud enough but il need a sound bar for more effective quality.. The only con is the remote sensor. It requires more than one attempt to switch it on.But other than that it's a really wonderful product with the latest features in this range."}, {'Product': 'tv', 'Name': 'Tushar Ambuskar', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': "Using 32 inch TV since 3 weeks overall Good TV , Value for money, picture quality is good for HD channels, SD channel are not very clear like HD.Quite disappointed with tv sound, if we increase the sound it's not audible clearly. Google assistant works properly."}, {'Product': 'tv', 'Name': 'Sagar Mali', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Picture quality is great, dolby sound is also good, you will get a theatre experience while watching on netflix. Value for money tv, picture up scaling from USB device is also good, HD channel also have very good picture quality and colors. Very satisfied with Tv. Only one improvement needed in audio clarity. Otherwise picture quality is very good at this price point.'}, {'Product': 'tv', 'Name': 'chanda Nikhar', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'TV is just an average model,sound quality is not good as excepted, Picture quality is nice. It would have been better if Ram was a little more like upto 16gb.'}, {'Product': 'tv', 'Name': 'NAVNEET  KUMAR', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Product is very nice and value for money.Picture quality is best and sound of TV is very good.Overall, very good decision for going to Motorola brand..'}, {'Product': 'tv', 'Name': 'Dhruvin Ahir', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Best All-Rounder TV in This Price Range1 Stunning Picture Quality2 Superior Sound Quality feels like i Purchased Dedicated SoundBar3 Clean OS ExperienceNeed some improvements and bug fixes1 Some time OS running slow and lagy when TV starts2 Some time Apps opening delayin Conclusion This TV is Best, but need Some OS Optimisations in Update'}, {'Product': 'tv', 'Name': 'Noor  Alam', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'TV is very good especially at the time of offer I got it for good money The screen of the TV is cool and sound and the sound is good No problem in connecting'}, {'Product': 'tv', 'Name': 'Boya Ramakrishna25 Ramakrishna', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Motorola revou tv 32 Inc 24 speaker best sound clarity best clarity best budget tv very good tv 2montha vadhuthuna very beautiful tv'}, {'Product': 'tv', 'Name': 'Boya Ramakrishna25 Ramakrishna', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Motorola revou tv 32 Inc 24 speaker best sound clarity best clarity best budget tv very good tv 2montha vadhuthuna very beautiful tv'}]
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:27:21] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:27:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:27:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:27:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone', 'Name': 'Arnab Das', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Awesome battery backup amazing camera, a all day batter backup  improved and brilliant IOs 16.1 oled display dolby speakers and lot more, just close your eyes and go for it. One of the best handy smartphones ever and in great discount given by flipkart in big billion days \U0001f525'}, {'Product': 'iphone', 'Name': 'Mahesh Jaiswara', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'LOOK - Its my first love apple i phone 13, first time purchase this phone but its look awesome in white colour love it.  hand feel too much premium.CAMERA - Mind blowing camera performance font camera and rear cameras take too much awesome qualities pictures . Night mode is supergood low light performance impressed mePERFORMANCE - its bionic a15 chipset faster ,have 60hz refresh rate but its beatable 120hz DISPLAY - uts OLD XDR RETINA display too much good look display i get 10 of 10 for d...'}, {'Product': 'iphone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'I upgraded to 13 from xs and my experience with this had been extraordinary . The user interface and the camera is too good .Just in love with this extraordinary device .I just shared some photos clicked from this phone so that everyone can have an idea about how good the camera is compared all other flagship devices . The lens inside the device is so efficient that it  automatically reduces the noise in the picture making it very crisp and clear  .'}, {'Product': 'iphone', 'Name': 'Mahim Chauhan', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'I switch to ios from android after 10 years so this review might help for migratorsIt’s been a month using the iPhone13 and this was my experience1. Design - its simple and no nonsense design . Expect white and pink rest of the colours are fingerprint magnets.  I have seen all the colours and I highly recommend the pink . It’s so light pink which makes it not girlish. See it for yourself it really looks so premium in light pink colour. For rest of it except white the aluminium frame wil...'}, {'Product': 'iphone', 'Name': 'Vaibhav  Raj', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': "Amazing beast....As expected , didn't disappoint me,Had to sell hard chunk of kidneys to get it !!;pCamera quality is definitely a super upgradeBattery is super.. easily last throughout the day with heavy usage.Light weight looks stylish what else you need??Starlight color just wow!!!Apple it would have been better if you should  have given an adaptor. Increase 2k price and give it in box!!!Simple ....Edit 1 : After 14 days of usage highly satisfied with battery performance, Last thr..."}, {'Product': 'iphone', 'Name': 'Rajan Khan', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Just love it \u2764\ufe0fCamera is good Night mode is killer Performance and display is best Face id is very fast Looks very premium in hand Just go for it without thinking too much !'}, {'Product': 'iphone', 'Name': 'Maharshi Pandey', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Picture quality is amazing you do not need to think twice about buying this for performance and photos, just go for it. Bionic A 15 is super fast and it has amazing performance, It is specially good for gaming although battery backup is not that good if you are a heavy user,But if you are a light or medium user it will give you battery backup of whole day in one charge.'}, {'Product': 'iphone', 'Name': 'Vishal Dubey', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Just upgraded from 11 to iPhone 13 ..cinematic mode video awesome camera awesome display awesome Looks A1 battery life is also good.New filter mode in camera added'}, {'Product': 'iphone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Awesome camera Amazing battery life Super xdr display is \U0001f495\U0001f44c\U0001f3fbPlaying games and day to day task are smooth Face ID is superbiOS 15 is really awesome \U0001f929 thanks to Apple'}, {'Product': 'iphone', 'Name': 'Parwej  Alam', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Performance very good Display very good Battery good Look very good'}, {'Product': 'iphone', 'Name': 'Parwej  Alam', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Performance very good Display very good Battery good Look very good'}]
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:29:07] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:29:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:29:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'headphone', 'Name': 'anjelius hasda', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Super bass good quality excellent \U0001f44d very good battery\U0001f50b pickup thanks u flipkart \U0001f60a\U0001f60a'}, {'Product': 'headphone', 'Name': 'Anil Sheshma', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Product is so good. Quality is very good . I really like this and suggest to other. The brand not matters but quality is the main base . Thanks flipkart for this. COD is also available for this.'}, {'Product': 'headphone', 'Name': 'Rukmini Kumari', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': "This is really a very good neckband and it gives very nice battery backup and it has very nice sound quality and bass and the best part is that it's charging speed it is super fast."}, {'Product': 'headphone', 'Name': 'Satya Narayan Kumar', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'My product delivered is 18/02/2022And Return policy date is 25/02/2022And today is 27/02/2022This Bluetooth is one speaker not workAnd one speaker is work left speakerIs work and right speaker is not workSo not perches this product'}, {'Product': 'headphone', 'Name': 'Arif Zain', 'Rating': '1', 'CommentHead': 'Horrible', 'Comment': "Delivered on 18 dec 21. I am posting this on 1 jan 2022 after my product is not working. The on/off button not working. Device is not connecting with mobile. Seems like it's stopped working. The led is still blinking. I only got 13 days to use it. 14th day it's stopped working. Now I am unable to return it since the return period is over. I saw someone says brand doesn't matter just go for it. But now I realise, brand does matter. I recommend to spend some more money and buy a brand"}, {'Product': 'headphone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Sound quality is really very good with good bass effect and design also is good,battery work  for 4-5 days ,one of my friend suggest me for this product it’s really very good at this price ,thanks Flipkart for such a lovely product'}, {'Product': 'headphone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': "I really love this earphones it fits perfectly in my ears and doesn't fall off even when I'm working out. The sound quality is amazing and for such reasonable rate it's perfect!"}, {'Product': 'headphone', 'Name': 'Dip', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': "Here Are The 7 Major Points Which I Noticed \U0001f590\U0001f3fb\U0001f6071) Magnetic Adsorption Is Not Working Properly But It's Not A Major Problem \U0001f6072) Sound Quality Is So Good \U0001f9763) Very Loud And Clear Sound \U0001f60a4) Battery Backup Is Outstanding \U0001f60d5) CALLING Quality Is Decent \U0001f9726) Bluetooth Connectivity Is Very Fast \U0001f6337) You'll Get 3Month Gaana Subscription \U0001f929Overall Very Good Product In This Price \U0001f929Go For It \u2764\ufe0f Highly Recommend"}, {'Product': 'headphone', 'Name': 'Chandan Gupta', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Very very nice product I suggested by all friends by purchase super se bhi upar good good good 40 hours battery life good quality sound charge very fast charging Lamba duration time Ab To 3-4 days live time I love it super product'}, {'Product': 'headphone', 'Name': 'Mohammad Junaid', 'Rating': '1', 'CommentHead': 'Worthless', 'Comment': 'Delivered 2 days before. 1. Bass is best 5/5.2. Built Quality is not good 1/53. Call Quality is good 4/5.4. Sound quality is good 4/5.Now both wires are broken inside . Not able to listen anything .... Its now six months , looks like company have made it to just work for warranty period...'}, {'Product': 'headphone', 'Name': 'Mohammad Junaid', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Delivered 2 days before. 1. Bass is best 5/5.2. Built Quality is not good 1/53. Call Quality is good 4/5.4. Sound quality is good 4/5.Now both wires are broken inside . Not able to listen anything .... Its now six months , looks like company have made it to just work for warranty period...'}]
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:46:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:46:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:46:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

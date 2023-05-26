@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request,jsonify
+# Using Flask-CORS simplifies handling cross-origin requests in your Flask application and ensures proper security measures are in place when interacting with different domains or origins.
 from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
@@ -19,6 +20,7 @@ def index():
         try:
             searchString = request.form['content'].replace(" ","")
             flipkart_url = "https://www.flipkart.com/search?q=" + searchString
+            # print(flipkart_url)
             uClient = uReq(flipkart_url)
             flipkartPage = uClient.read()
             uClient.close()
@@ -37,6 +39,7 @@ def index():
             fw = open(filename, "w")
             headers = "Product, Customer Name, Rating, Heading, Comment \n"
             fw.write(headers)
+            
             reviews = []
             for commentbox in commentboxes:
                 try:
@@ -75,7 +78,7 @@ def index():
             logging.info("log my final result {}".format(reviews))
 
             
-            client = pymongo.MongoClient("mongodb+srv://pwskills:pwskills@cluster0.ln0bt5m.mongodb.net/?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://Nikhil:pwskills@cluster0.siytt6m.mongodb.net/?retryWrites=true&w=majority")
             db =client['scrapper_eng_pwskills']
             coll_pw_eng = db['scraper_pwskills_eng']
             coll_pw_eng.insert_many(reviews)
@@ -89,6 +92,8 @@ def index():
     else:
         return render_template('index.html')
 
+# app = Flask(__name__)
+# app.debug = True 
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
