@@ -5590,3 +5590,32 @@ INFO:root:log my final result [{'Product': 'headphone', 'Name': 'anjelius hasda'
 INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:46:59] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:46:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [27/May/2023 01:46:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:22:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:22:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:22:45] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:22:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:local variable 'name' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:23:04] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'mobile', 'Name': 'Dipak K', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Looking for keypad phone for my mom and this one is best of them. Build quality is very tough and very easy to handle. Keypad is very good and keys are works smoothly.  Display is very good and visibility is good. Comes in best attractive price.'}, {'Product': 'mobile', 'Name': 'Puja Sharma', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'The design of this phone is excellent. Battery backup is amazing and lasts really long. The display looks good and phone works very well. Overall good phone at this price.'}, {'Product': 'mobile', 'Name': 'Gaurav  Singh', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "One of the best quality phones I have ever bought it's very easy to use and the build quality is also very good secondly the battery backup is also very good loved the phone"}, {'Product': 'mobile', 'Name': 'uttam', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Superb phone at this price point it provide all the features of keypad mobile phone because on call sound experience is also great and build quality is also great'}, {'Product': 'mobile', 'Name': 'Flipkart Customer', 'Rating': '2', 'CommentHead': 'Could be way better', 'Comment': 'Sound is very low.Unsatisfied with sound quality'}, {'Product': 'mobile', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Worthless', 'Comment': 'I am not happy'}, {'Product': 'mobile', 'Name': 'Kajal Jadhav', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': "Very handy phone .Camera is awesome . Display performance also much satisfactory.  Battery capacity enough.love it's delicacy.  Worth the money"}, {'Product': 'mobile', 'Name': 'Kajal Jadhav', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "Very handy phone .Camera is awesome . Display performance also much satisfactory.  Battery capacity enough.love it's delicacy.  Worth the money"}]
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:23:45] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:23:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:23:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Hplaptop', 'Name': 'Aryan  Mishra', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': "I loved it. Good performance, stylish looks, decent battery for a gaming laptop. The only problem I faced was the wobbling issue but it doesn't affect much. Overall good laptop."}, {'Product': 'Hplaptop', 'Name': 'Prashant Kumar Priy', 'Rating': '4', 'CommentHead': 'Horrible', 'Comment': "Battery capacity is too low within 3 hours battery is exhaustDisplay size is better but colour of the display is not much betterIt's big thing is that it has 60hz refresh rate not 144hz refresh rateSoud is very low"}, {'Product': 'Hplaptop', 'Name': 'Amar Sharma', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Good product'}, {'Product': 'Hplaptop', 'Name': 'Abhishek Boodigopp', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Excellent'}, {'Product': 'Hplaptop', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'I think this is best for gaming .  But battery life is very bad and also problem for bubbling . It has not good hinge . But overall performance and experience is good'}, {'Product': 'Hplaptop', 'Name': 'Satyam lohar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Laptop come with enough specifications to complete your any work \U0001f383'}, {'Product': 'Hplaptop', 'Name': 'Yogi Hadiya', 'Rating': '1', 'CommentHead': 'Highly recommended', 'Comment': 'Very good \U0001f60a\U0001f44d'}, {'Product': 'Hplaptop', 'Name': 'Souvik Ghosh', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Excellent \U0001f60a'}, {'Product': 'Hplaptop', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best laptop for both gaming and study \U0001f609\U0001f609\U0001f609\U0001f609\U0001f609\U0001f609'}, {'Product': 'Hplaptop', 'Name': 'Anandhu Anil', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Perfect for gaming but the battery back-up on normal usage is below Average.Also the Speaker sound is low'}, {'Product': 'Hplaptop', 'Name': 'Anandhu Anil', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Perfect for gaming but the battery back-up on normal usage is below Average.Also the Speaker sound is low'}]
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:24:41] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:24:41] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2023 03:24:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
